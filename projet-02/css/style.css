@@ -1,0 +1,79 @@
+.header {
+    z-index: 999;
+}
+
+/* NAVBAR */
+/* .toto{
+    z-index: 1;
+} */
+
+/* SLIDER */
+
+.slider-bg {
+    min-height: 800px;
+    width: 100%;
+/* taille image*/
+}
+
+.slider-bg-substitute{
+    background-color: black;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+  
+}
+
+.carousel-caption-callout{
+   align-items: center; 
+}
+
+
+.h5-callout {
+    font-size: 6rem;
+}
+
+
+/* ABOUT */
+
+.bg-about {
+    background: url('../img/about/about-us-bg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 800px;
+    
+    
+}
+
+.text-about{
+    min-height: 500px;
+    max-width:900px;
+    z-index: 999;
+}
+
+.right-image-callout{
+    margin-top: 30px;
+    margin-right: 250px;
+}
+
+.left-image-callout{
+    margin-bottom: 30px;
+    padding-left:  150px;
+}
+/* SPECIALITY */
+
+.bg-speciality{
+    background: url('../img/homepage/special-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+ 
+}
+
+.change-my-color {
+    fill: yellow;
+}
+
+/* .bg-speciality-black{
+    background-color: black;
+    width: 100%;
+    height: 500PX;
+} */
