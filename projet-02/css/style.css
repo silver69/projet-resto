@@ -1,6 +1,6 @@
-.header {
+/* .header {
     z-index: 999;
-}
+} */
 
 /* NAVBAR */
 /* .toto{
@@ -9,19 +9,29 @@
 
 /* SLIDER */
 
-.slider-bg {
+
+.bg-intro{
+    background: url('../img/slide/slideshow-25.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
     min-height: 800px;
-    width: 100%;
-/* taille image*/
+    max-width:100%;
+    background-size: cover;
 }
 
-.slider-bg-substitute{
+/* .slider-bg {
+    min-height: 800px;
+    width: 100%;
+
+} */
+
+/* .slider-bg-substitute{
     background-color: black;
     max-width: 100%;
     height: auto;
     position: relative;
   
-}
+} */
 
 .carousel-caption-callout{
    align-items: center; 
@@ -39,9 +49,9 @@
     background: url('../img/about/about-us-bg.png');
     background-repeat: no-repeat;
     background-position: center center;
-    height: 800px;
-    
-    
+    /* min-height: 800px; */
+   /*  max-width:900px; */
+   /*  background-size: cover; */
 }
 
 .text-about{
@@ -52,12 +62,12 @@
 
 .right-image-callout{
     margin-top: 30px;
-    margin-right: 250px;
+    margin-right: 280px;
 }
 
 .left-image-callout{
     margin-bottom: 30px;
-    padding-left:  150px;
+    padding-left:  250px;
 }
 /* SPECIALITY */
 
@@ -65,6 +75,7 @@
     background: url('../img/homepage/special-bg.jpg');
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
  
 }
 

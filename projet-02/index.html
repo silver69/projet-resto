@@ -13,7 +13,7 @@
 
 <body>
   <!-- HEADER -->
-  <header class="position-relative header">
+  <header class="">
 
     <!--  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-absolute top-0 start-0 w-100">
       <div class="container-fluid">
@@ -66,8 +66,7 @@
 
 
 
-    <nav
-      class="navbar navbar-expand-lg navbar-dark bg-transparent m-3 text-white position-absolute top-0 start-0 w-100">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent  text-white position-absolute top-0 start-0 w-100">
       <div class="container-fluid">
         <a class="navbar-brand start" href="#">
           <img src="img/icon/logo-1.png" alt="Logo" class="d-inline-block align-text-top img-fluid" />
@@ -114,101 +113,23 @@
 
   <!--  SECTION-01  CAROUSEL -->
   <!-- carousel visible -->
+  <div class=" container-fluid bg-intro">
 
-  <div class="container-fluid p-0 d-none d-md-block">
-    <div id="test" class="carousel slide" data-bs-ride="false">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#test" data-bs-slide-to="0" class="active" aria-current="true"
-          aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#test" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#test" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="img/slide/slideshow-25.jpg" class="d-block slider-bg" alt="..." />
-          <div class="col align-self-center">
-            <div class="carousel-caption">
-              <!--   text -->
-
-              <div class="row text-center align-text-center pb-5">
-                <!--   text +image-->
-
-                <div class="d-flex justify-content-center">
-                  <div class="">
-                    <h5 class="fs-1 border-5 border-top border-bottom m-3">
-                      <span class="text-wrap">EST.</span>
-                    </h5>
-                  </div>
-
-                  <div class="">
-                    <img src="img/homepage/wheel.png" alt="" />
-                  </div>
-                  <div class="">
-                    <h5 class="fs-1 border-5 border-top border-bottom m-3">
-                      <span class="text-wrap">1974</span>
-                    </h5>
-                  </div>
-                </div>
-                <!--  end block  text + image -->
-                <h5 class="h5-callout">SEAFOOD</h5>
-                <h5 class="fs-1 pb-3">Best Restaurant</h5>
-                <div class="p-5">
-                  <img src="img/icon/quality-food.png" alt="" />
-                </div>
-              </div>
-              <!--  end first row -->
-            </div>
-            <!-- carousel caption end -->
-          </div>
-          <!--  modification caption end -->
-        </div>
-      </div>
-      <!-- carousel inner end -->
-      <div class="carousel-item">
-        <img src="img/slide/image-slide-1.jpg" class="d-block slider-bg" alt="..." />
-        <div class="carousel-caption">
-          <h5>Second slide label</h5>
-          <p>Some representative placeholder content for the second slide.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="img/slide/slideshow-26.jpg" class="d-block slider-bg" alt="..." />
-        <div class="carousel-caption">
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#test" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#test" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-    <!--  end silder -->
-  </div>
-  <!-- end container  visible large screen-->
-
-  <!-- substitut slider visible small screen -->
-
-  <div class="container slider-bg-substitute pt-5 pt-5 pb-5  d-sm-block d-md-none ">
-    <div class="row text-center align-text-center pt-5 pb-5 text-white">
+    <div class="row align-self-center text-center  text-white ">
       <!--   text +image-->
 
-      <div class="d-flex justify-content-center">
+      <div class="d-flex justify-content-center ">
         <div class="">
-          <h5 class="fs-1 border-5 border-top border-bottom m-3">
+          <h5 class="fs-1 border-5 border-top border-bottom align-items-center">
             <span class="text-wrap">EST.</span>
           </h5>
         </div>
 
         <div class="">
-          <img src="img/homepage/wheel.png" alt="" />
+          <img class="img-fluid" src="img/homepage/wheel.png" alt="" />
         </div>
         <div class="">
-          <h5 class="fs-1 border-5 border-top border-bottom m-3">
+          <h5 class="fs-1 border-5 border-top border-bottom ">
             <span class="text-wrap">1974</span>
           </h5>
         </div>
@@ -217,22 +138,37 @@
       <h5 class="h5-callout">SEAFOOD</h5>
       <h5 class="fs-1 pb-3">Best Restaurant</h5>
       <div>
-        <img src="img/icon/quality-food.png" alt="" />
+        <img class="img-fluid" src="img/icon/quality-food.png" alt="" />
       </div>
     </div>
     <!--  end first row -->
+
+
+
   </div>
+
+
+
+
+
+
+
+
+  <!-- end container  visible large screen-->
+
+  <!-- substitut slider visible small screen -->
+
+
   <!--  end container substitut slider visible small screen -->
 
   <!-- SECTION-02  ABOUT US -->
 
   <div class="container-fluid bg-about">
-    <div class="row justify-content-center h100 position-relative">
-      <div class=" d-none d-lg-block ">
-        <img class="img-fluid  position-absolute d-inline-flex top-0 end-0 right-image-callout"
-          src="img/about/about-us-1.jpg" alt="">
+    <div class="row justify-content-center align-items-center ">
+      <div class=" col d-none d-lg-block ">
+        <img class="img-fluid   d-inline-flex s" src="img/about/about-us-1.jpg" alt="">
       </div>
-      <div class=" col text-about justify-content-center align-items-center d-flex m-5     ">
+      <div class=" col text-about justify-content-center align-items-center d-flex      ">
         <div class="bg-dark m-5 p-5 ">
           <!-- div pour border -->
           <div class="bg-dark text-center justify-content-center border border-1">
@@ -273,7 +209,7 @@
           <!-- fin row text central-->
         </div>
       </div>
-      <div class="  col d-none d-lg-block position-absolute bottom-0 end-0 left-image-callout">
+      <div class="  col d-none d-lg-block ">
         <img src="img/about/about-us-2.jpg" alt="">
       </div>
     </div>
@@ -285,51 +221,146 @@
   <!-- SECTION-03 SPECIALITIES -->
 
   <div class="container-fluid bg-speciality">
-    <div class="row  text-center justify-content-center">
+    <div class="row  text-center justify-content-center pb-5 pt-5 ">
       <h2 class="fs-3 text-capitalize text-white">Specialities of the day</h2>
       <h3 class="fs-3 text-capitalize text-white">~ delicious foods ~</h3>
     </div>
-    <div class="row">
-      <div>
-        <div class="card" style="width: 18rem;">
-          <img src="img/homepage/speciality-22.jpg" class="card-img-top" alt="...">
+    <div class="row justify-content-center pb-5 pt-5 ">
+      <!-- row for cards -->
+      <div class="col-sm-3">
+        <!-- card-01 -->
+        <div class="card rounded-0 text-center border-0">
+          <img src="img/homepage/speciality-22.jpg" class="card-img-top rounded-0 border-0 img-fluid" alt="...">
           <div class="card-body">
             <h5 class="card-title">British Colombiat</h5>
-            <div class="change-my-color"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
-                  height="24">
+            <div class="change-my-color">
+              <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                   <path fill-rule="evenodd"
-                    d="M12 .25a.75.75 0 01.673.418l3.058 6.197 6.839.994a.75.75 0 01.415 1.279l-4.948 4.823 1.168 6.811a.75.75 0 01-1.088.791L12 18.347l-6.117 3.216a.75.75 0 01-1.088-.79l1.168-6.812-4.948-4.823a.75.75 0 01.416-1.28l6.838-.993L11.328.668A.75.75 0 0112 .25zm0 2.445L9.44 7.882a.75.75 0 01-.565.41l-5.725.832 4.143 4.038a.75.75 0 01.215.664l-.978 5.702 5.121-2.692a.75.75 0 01.698 0l5.12 2.692-.977-5.702a.75.75 0 01.215-.664l4.143-4.038-5.725-.831a.75.75 0 01-.565-.41L12 2.694z">
+                    d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z">
                   </path>
-                </svg></span><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                </svg></span> <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                   <path fill-rule="evenodd"
-                    d="M12 .25a.75.75 0 01.673.418l3.058 6.197 6.839.994a.75.75 0 01.415 1.279l-4.948 4.823 1.168 6.811a.75.75 0 01-1.088.791L12 18.347l-6.117 3.216a.75.75 0 01-1.088-.79l1.168-6.812-4.948-4.823a.75.75 0 01.416-1.28l6.838-.993L11.328.668A.75.75 0 0112 .25zm0 2.445L9.44 7.882a.75.75 0 01-.565.41l-5.725.832 4.143 4.038a.75.75 0 01.215.664l-.978 5.702 5.121-2.692a.75.75 0 01.698 0l5.12 2.692-.977-5.702a.75.75 0 01.215-.664l4.143-4.038-5.725-.831a.75.75 0 01-.565-.41L12 2.694z">
+                    d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z">
                   </path>
-                </svg></span><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                </svg></span> <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                   <path fill-rule="evenodd"
-                    d="M12 .25a.75.75 0 01.673.418l3.058 6.197 6.839.994a.75.75 0 01.415 1.279l-4.948 4.823 1.168 6.811a.75.75 0 01-1.088.791L12 18.347l-6.117 3.216a.75.75 0 01-1.088-.79l1.168-6.812-4.948-4.823a.75.75 0 01.416-1.28l6.838-.993L11.328.668A.75.75 0 0112 .25zm0 2.445L9.44 7.882a.75.75 0 01-.565.41l-5.725.832 4.143 4.038a.75.75 0 01.215.664l-.978 5.702 5.121-2.692a.75.75 0 01.698 0l5.12 2.692-.977-5.702a.75.75 0 01.215-.664l4.143-4.038-5.725-.831a.75.75 0 01-.565-.41L12 2.694z">
+                    d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z">
                   </path>
-                </svg></span><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                </svg></span> <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                   <path fill-rule="evenodd"
-                    d="M12 .25a.75.75 0 01.673.418l3.058 6.197 6.839.994a.75.75 0 01.415 1.279l-4.948 4.823 1.168 6.811a.75.75 0 01-1.088.791L12 18.347l-6.117 3.216a.75.75 0 01-1.088-.79l1.168-6.812-4.948-4.823a.75.75 0 01.416-1.28l6.838-.993L11.328.668A.75.75 0 0112 .25zm0 2.445L9.44 7.882a.75.75 0 01-.565.41l-5.725.832 4.143 4.038a.75.75 0 01.215.664l-.978 5.702 5.121-2.692a.75.75 0 01.698 0l5.12 2.692-.977-5.702a.75.75 0 01.215-.664l4.143-4.038-5.725-.831a.75.75 0 01-.565-.41L12 2.694z">
+                    d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z">
                   </path>
-                </svg></span></div>
+                </svg></span>
+            </div>
             <p class="card-text">$56</p>
-
           </div>
         </div>
       </div>
-    </div>
-  </div>
 
-  <!-- SECTION-04  OUR FOOD MENU -->
 
-  <!-- SECTION-05  OPENING TIME -->
+      <div class="col-sm-3">
+        <!-- card-02 -->
+        <div class="card rounded-0 text-center border-0 ">
+          <img src="img/homepage/speciality-23.jpg" class="card-img-top rounded-0 border-0 img-fluid" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Fruit Eggs</h5>
+            <div class="change-my-color">
+              <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                  <path fill-rule="evenodd"
+                    d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z">
+                  </path>
+                </svg></span> <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                  <path fill-rule="evenodd"
+                    d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z">
+                  </path>
+                </svg></span> <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                  <path fill-rule="evenodd"
+                    d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z">
+                  </path>
+                </svg></span> <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                  <path fill-rule="evenodd"
+                    d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z">
+                  </path>
+                </svg></span>
+            </div>
+            <p class="card-text">$32</p>
+          </div>
+        </div>
+      </div>
 
-  <!-- SECTION-06  LATEST NEWS -->
+      <div class="col-sm-3">
+        <!-- card-03 -->
+        <div class="card rounded-0 text-center border-0 ">
+          <img src="img/homepage/speciality-19.jpg" class="card-img-top rounded-0 border-0 img-fluid" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Salmon Sashimi</h5>
+            <div class="change-my-color">
+              <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                  <path fill-rule="evenodd"
+                    d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z">
+                  </path>
+                </svg></span> <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                  <path fill-rule="evenodd"
+                    d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z">
+                  </path>
+                </svg></span> <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                  <path fill-rule="evenodd"
+                    d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z">
+                  </path>
+                </svg></span> <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                  <path fill-rule="evenodd"
+                    d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z">
+                  </path>
+                </svg></span>
+            </div>
+            <p class="card-text">$35</p>
+          </div>
+        </div>
+      </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-    crossorigin="anonymous"></script>
+      <div class="col-sm-3">
+        <!-- card-04 -->
+        <div class="card rounded-0 text-center border-0 ">
+          <img src="img/homepage/speciality-20.jpg" class="card-img-top rounded-0 border-0 img-fluid" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pink Crispy Dumplings</h5>
+            <div class="change-my-color">
+              <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                  <path fill-rule="evenodd"
+                    d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z">
+                  </path>
+                </svg></span> <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                  <path fill-rule="evenodd"
+                    d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z">
+                  </path>
+                </svg></span> <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                  <path fill-rule="evenodd"
+                    d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z">
+                  </path>
+                </svg></span> <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                  <path fill-rule="evenodd"
+                    d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z">
+                  </path>
+                </svg></span>
+            </div>
+            <p class="card-text">$48</p>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div> <!-- fin row card -->
+
+    <!-- SECTION-04  OUR FOOD MENU -->
+
+    <!-- SECTION-05  OPENING TIME -->
+
+    <!-- SECTION-06  LATEST NEWS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
